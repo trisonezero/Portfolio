@@ -61,7 +61,7 @@ export default function Projects({ color }) {
                   }}
                   overflow="hidden"
                 >
-                  <Image objectFit="cover" src={project.image} />
+                  {/* <Image objectFit="cover" src={project.image} /> */}
 
                   <Stack>
                     <CardBody align="left">
@@ -78,7 +78,7 @@ export default function Projects({ color }) {
                           </a>
                         ))}
                       </HStack>
-                      <HStack pt={4} spacing={2}>
+                      {/* <HStack pt={4} spacing={2}>
                         {project.badges.map((badge) => (
                           <Badge
                             key={badge.text}
@@ -87,14 +87,14 @@ export default function Projects({ color }) {
                             {badge.text}
                           </Badge>
                         ))}
-                      </HStack>
+                      </HStack> */}
                     </CardBody>
                   </Stack>
                 </Card>
               </Fade>
             ))}
           </Stack>
-          <Text color={"gray.600"} fontSize={"xl"} px={4}>
+          {/* <Text color={"gray.600"} fontSize={"xl"} px={4}>
             Other Projects
           </Text>
           <Center px={4}>
@@ -162,7 +162,7 @@ export default function Projects({ color }) {
                   </Card>
                 </Fade>
               ))}
-          </SimpleGrid>
+          </SimpleGrid> */}
         </Stack>
       </Container>
     </>

@@ -13,17 +13,18 @@ import ProfileArray from "./ProfileArray";
 
 export default function Header({ color }) {
   const profile = ProfileArray();
+  console.log("Profile Array:", profile); // Log the profile array to the console
+
   const scrollToContact = () => {
     const contactSection = document.querySelector("#contact");
     contactSection.scrollIntoView({ behavior: "smooth" });
   };
+
   const linkedin = () => {
-    window.open(
-                `${profile.linkedin}`,
-                "_blank",
-                "noreferrer,noopener"
-              );
+    console.log("LinkedIn"); // Log "LinkedIn" to the console
+    window.open(`${profile.linkedin}`, "_blank", "noreferrer,noopener");
   };
+
   return (
     <>
       <Heading>
@@ -47,7 +48,11 @@ export default function Header({ color }) {
             lineHeight={"110%"}
           >
             {profile.headerName} <br />
-            <Text as={"span"} color={`${color}.400`}>
+            <Text
+              as={"span"}
+              color={`${color}.400`}
+              fontSize={{ base: "xl", sm: "2xl", md: "4xl" }}
+            >
               {profile.headerRole}
             </Text>
           </Heading>
