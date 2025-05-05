@@ -1,19 +1,19 @@
 ## Site Name
-- Tristan Lee
+- Tristan Lee Portfolio
 
 ## Header
-- Hi, my name is Eldora. 
-- I'm a software engineer.
-- Short Description Here.
+- Tristan Lee 
+- CS student @York University
+- Welcome to my Portfolio!
 
-## About
-Write your "About" section here.
+## About 
+Hey there, I'm Tristan! I'm a Computer Science student at York University and an aspiring software engineer. When I'm not coding, you'll usually find me staying active. As a former competitive swimmer, I still hit the pool regularly between classes. I'm also a huge basketball fan—both watching games and playing pickup with friends. Winters are for snowboarding, and whenever possible, I love exploring Toronto's food scene or traveling to new places. Some of my favorite adventures include camping trips across North America's stunning national parks. Lastly and most importantly I love meeting new people! So enough about me, let's connect! I'd love to get to know you.
 
 ## Contact
-Write your "Contact" section here.
-- LinkedIn: https://linkedin.com/in/username
-- GitHub: https://github.com/username
-- Email: username@gmail.com
+ 
+- LinkedIn: https://linkedin.com/in/trisonezero
+- GitHub: https://github.com/trisonezero
+- Email: tristan.yonge@gmail.com
 
 ## Logo
-- EB
+- TL

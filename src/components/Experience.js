@@ -10,14 +10,14 @@ import {
   CardBody,
   CardFooter,
   Flex,
-  Badge,
+  // Badge,
   Image,
   List,
   ListItem,
   ListIcon,
-  Button,
-  ButtonGroup,
-  Center,
+  // Button,
+  // ButtonGroup,
+  // Center,
 } from "@chakra-ui/react";
 import { ChevronRightIcon } from "@chakra-ui/icons";
 import { Fade } from "react-reveal";
@@ -36,9 +36,9 @@ export default function Experience({ color }) {
     }
   }, [options]);
   
-  const handleSelected = (value) => {
-    setSelected(value);
-  };
+  // const handleSelected = (value) => {
+  //   setSelected(value);
+  // };
 
   return (
     <>
